@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd4d64ef-9ebb-4334-a43f-ace45e3385b0" name="Default Changelist" comment="商品管理代码提交">
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/query/BaseQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/BitStatesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/ClassUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/CodeGenerateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/GlobalSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/LetterUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/ProductStateConsts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/PropertiesHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/StrUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/encrypt/DES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/encrypt/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/BrandQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/ProductQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/ProductTypeQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/ProductApplicaiton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/config/Swagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/BrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/test/java/cn/itsource/anju/mapper/BrandMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/test/java/cn/itsource/anju/service/impl/ProductTypeServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-genertor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-genertor/src/main/java/cn/itsource/utils/GenerateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-genertor/src/main/resources/generate-product.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-genertor/src/main/resources/templates/controller.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-genertor/src/main/resources/templates/query.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/AjaxResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/PageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/PageList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-plat-parent/plat-service/src/main/java/cn/itsource/anju/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-plat-parent/plat-service/src/main/java/cn/itsource/anju/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/DocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/DocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fd4d64ef-9ebb-4334-a43f-ace45e3385b0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +239,7 @@
       <workItem from="1570803954938" duration="476000" />
       <workItem from="1570844674732" duration="4473000" />
       <workItem from="1570878461243" duration="2907000" />
-      <workItem from="1570982979776" duration="8605000" />
+      <workItem from="1570982979776" duration="8883000" />
     </task>
     <task id="LOCAL-00001" summary="核心配置文件提交">
       <created>1570700461812</created>
@@ -310,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570700498169</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="商品管理代码提交">
+      <created>1570994978162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570994978162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
