@@ -1,8 +1,8 @@
-package cn.itsource.anju;
+package cn.itsource.anju.util;
 
 /**
  * Ajax请求结果封装的工具类
- * @author yza
+ * @author solargen
  */
 public class AjaxResult {
 

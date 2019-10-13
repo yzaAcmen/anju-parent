@@ -1,22 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd4d64ef-9ebb-4334-a43f-ace45e3385b0" name="Default Changelist" comment="核心配置文件提交">
-      <change afterPath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/GlobalCorsConfig.java" afterDir="false" />
+    <list default="true" id="fd4d64ef-9ebb-4334-a43f-ace45e3385b0" name="Default Changelist" comment="商品管理代码提交">
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/query/BaseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/BitStatesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/ClassUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/CodeGenerateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/GlobalSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/LetterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/ProductStateConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/PropertiesHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/StrUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/encrypt/DES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/encrypt/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/BrandQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/ProductQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/ProductTypeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/ProductApplicaiton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IBrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/test/java/cn/itsource/anju/mapper/BrandMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/test/java/cn/itsource/anju/service/impl/ProductTypeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-genertor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-genertor/src/main/java/cn/itsource/utils/GenerateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-genertor/src/main/resources/generate-product.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-genertor/src/main/resources/templates/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-genertor/src/main/resources/templates/query.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-config-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-config-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-plat-parent/plat-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-plat-parent/plat-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/AjaxResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/PageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-basic/basic-util/src/main/java/cn/itsource/anju/util/PageList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-plat-parent/plat-service/src/main/java/cn/itsource/anju/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-plat-parent/plat-service/src/main/java/cn/itsource/anju/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-plat-parent/plat-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-plat-parent/plat-service/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-plat-parent/plat-service/target/classes/cn/itsource/anju/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/anju-plat-parent/plat-service/target/classes/cn/itsource/anju/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/DocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/DocumentationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +117,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -65,7 +126,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,14 +138,16 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2211838" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-zuul\src\main\resources" />
-      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-config-server\src\main\resources" />
-      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-plat-parent\plat-service\src\main\java\cn\itsource\anju" />
+      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-product-parent\product-service\src\main\java\cn\itsource\anju\controller" />
+      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-product-parent\product-service\src\main\resources" />
+      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-product-parent\product-service\src\test\java" />
+      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-basic\basic-util\src\main\java\cn\itsource\anju" />
+      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-basic\basic-util\src\main\java\cn\itsource\anju\encrypt" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,29 +167,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="anju-config-server" />
+  <component name="RunManager" selected="Spring Boot.ProductApplicaiton">
+    <configuration name="BrandMapperTest.queryPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itsource.anju.*" />
+          <option name="PATTERN" value="cn.itsource.anju.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.anju.ConfigServerApplication" />
+      <option name="PACKAGE_NAME" value="cn.itsource.anju.mapper" />
+      <option name="MAIN_CLASS_NAME" value="cn.itsource.anju.mapper.BrandMapperTest" />
+      <option name="METHOD_NAME" value="queryPage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="anju-eureka" />
+    <configuration name="ProductTypeServiceTest.loadTypeTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itsource.anju.*" />
+          <option name="PATTERN" value="cn.itsource.anju.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.anju.EurekaApplication" />
+      <option name="PACKAGE_NAME" value="cn.itsource.anju.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.itsource.anju.service.impl.ProductTypeServiceTest" />
+      <option name="METHOD_NAME" value="loadTypeTree" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,6 +209,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.anju.PlatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplicaiton" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itsource.anju.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.anju.ProductApplicaiton" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,10 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.EurekaApplication" />
-        <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.ProductApplicaiton" />
         <item itemvalue="Spring Boot.PlatApplication" />
+        <item itemvalue="JUnit.ProductTypeServiceTest.loadTypeTree" />
+        <item itemvalue="JUnit.BrandMapperTest.queryPage" />
+        <item itemvalue="Spring Boot.ZuulApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -174,12 +257,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@157a158f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e18310db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@157a158f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f98af952" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e18310db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3e7ede9d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -210,6 +293,8 @@
       <workItem from="1570802814525" duration="290000" />
       <workItem from="1570803954938" duration="476000" />
       <workItem from="1570844674732" duration="4473000" />
+      <workItem from="1570878461243" duration="2907000" />
+      <workItem from="1570982979776" duration="8605000" />
     </task>
     <task id="LOCAL-00001" summary="核心配置文件提交">
       <created>1570700461812</created>
@@ -245,7 +330,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="核心配置文件提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="核心配置文件提交" />
+    <MESSAGE value="商品管理代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品管理代码提交" />
   </component>
 </project>

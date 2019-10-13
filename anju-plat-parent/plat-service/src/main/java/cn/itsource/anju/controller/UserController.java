@@ -1,7 +1,7 @@
 package cn.itsource.anju.controller;
 
-import cn.itsource.anju.AjaxResult;
 import cn.itsource.anju.User;
+import cn.itsource.anju.util.AjaxResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;

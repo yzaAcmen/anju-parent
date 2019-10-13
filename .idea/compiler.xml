@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="plat-interface" />
+        <module name="basic-genertor" />
         <module name="anju-eureka" />
-        <module name="plat-service" />
         <module name="anju-zuul" />
+        <module name="plat-service" />
+        <module name="product-service" />
+        <module name="product-interface" />
         <module name="basic-util" />
         <module name="anju-config-server" />
       </profile>

@@ -14,6 +14,8 @@
         <module>anju-basic</module>
         <module>anju-zuul</module>
         <module>anju-config-server</module>
+        <module>anju-product-parent</module>
+        <module>basic-genertor</module>
     </modules>
 
     <properties>
