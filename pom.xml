@@ -16,6 +16,7 @@
         <module>anju-config-server</module>
         <module>anju-product-parent</module>
         <module>basic-genertor</module>
+        <module>anju-common-parent</module>
     </modules>
 
     <properties>

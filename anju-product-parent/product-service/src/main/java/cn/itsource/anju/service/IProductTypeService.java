@@ -19,4 +19,6 @@ public interface IProductTypeService extends IService<ProductType> {
      * @return
      */
     List<ProductType> loadTypeTree();
+
+   public void genHomePage();
 }

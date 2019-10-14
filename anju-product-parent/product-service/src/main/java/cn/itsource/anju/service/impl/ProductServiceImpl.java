@@ -1,10 +1,17 @@
 package cn.itsource.anju.service.impl;
 
+import cn.itsource.anju.client.StaticPageClient;
 import cn.itsource.anju.domain.Product;
+import cn.itsource.anju.domain.ProductType;
 import cn.itsource.anju.mapper.ProductMapper;
 import cn.itsource.anju.service.IProductService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -16,5 +23,4 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product> implements IProductService {
-
 }

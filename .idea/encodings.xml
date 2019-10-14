@@ -4,6 +4,12 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/anju-basic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/anju-basic/basic-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anju-common-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anju-common-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anju-common-parent/common-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anju-common-parent/common-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anju-common-parent/common-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anju-common-parent/common-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/anju-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/anju-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/anju-plat-parent" charset="UTF-8" />

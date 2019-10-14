@@ -8,13 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="plat-interface" />
         <module name="basic-genertor" />
+        <module name="product-service" />
+        <module name="plat-service" />
+        <module name="common-interface" />
+        <module name="anju-config-server" />
         <module name="anju-eureka" />
         <module name="anju-zuul" />
-        <module name="plat-service" />
-        <module name="product-service" />
         <module name="product-interface" />
         <module name="basic-util" />
-        <module name="anju-config-server" />
+        <module name="common-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
