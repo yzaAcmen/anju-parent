@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd4d64ef-9ebb-4334-a43f-ace45e3385b0" name="Default Changelist" comment="商品类型管理优化代码提交">
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/util/FastDfsApiOpr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/resources/fdfs_client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/test/java/cn/itsource/fdfs/FastDfsTest.java" afterDir="false" />
+    <list default="true" id="fd4d64ef-9ebb-4334-a43f-ace45e3385b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/DocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/DocumentationConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FastDfsTest.testUpload">
+  <component name="RunManager" selected="Spring Boot.ProductApplicaiton">
     <configuration name="FastDfsTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-service" />
       <extension name="coverage">
@@ -137,22 +136,6 @@
       <option name="PACKAGE_NAME" value="cn.itsource.fdfs" />
       <option name="MAIN_CLASS_NAME" value="cn.itsource.fdfs.FastDfsTest" />
       <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FastDfsTest.testDownload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itsource.fdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itsource.fdfs" />
-      <option name="MAIN_CLASS_NAME" value="cn.itsource.fdfs.FastDfsTest" />
-      <option name="METHOD_NAME" value="testDownload" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,6 +178,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="plat-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itsource.anju.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.anju.PlatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductApplicaiton" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="product-service" />
       <extension name="coverage">
@@ -223,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ProductApplicaiton" />
+        <item itemvalue="Spring Boot.PlatApplication" />
+        <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="JUnit.FastDfsTest.testUpload" />
         <item itemvalue="JUnit.FastDfsTest.testDelete" />
-        <item itemvalue="JUnit.FastDfsTest.testDownload" />
-        <item itemvalue="Spring Boot.ProductApplicaiton" />
-        <item itemvalue="Spring Boot.ZuulApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +235,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7d8eaf31" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@828f47e2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@828f47e2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5c8f2722" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +275,8 @@
       <workItem from="1570982979776" duration="9215000" />
       <workItem from="1571042408606" duration="1325000" />
       <workItem from="1571046744986" duration="11012000" />
-      <workItem from="1571136341886" duration="3772000" />
+      <workItem from="1571136341886" duration="4079000" />
+      <workItem from="1571188751320" duration="12780000" />
     </task>
     <task id="LOCAL-00001" summary="核心配置文件提交">
       <created>1570700461812</created>
@@ -297,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570994978162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="文件上传管理代码提交">
+      <created>1571141161616</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571141161616</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +330,7 @@
     <MESSAGE value="核心配置文件提交" />
     <MESSAGE value="商品管理代码提交" />
     <MESSAGE value="商品类型管理优化代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品类型管理优化代码提交" />
+    <MESSAGE value="文件上传管理代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件上传管理代码提交" />
   </component>
 </project>

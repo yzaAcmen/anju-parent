@@ -16,4 +16,4 @@ eureka:
 
 logging:
   level:
-    cn.itsource.aigou: debug
+    cn.itsource.anju: debug
