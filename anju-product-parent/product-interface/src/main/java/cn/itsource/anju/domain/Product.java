@@ -4,11 +4,13 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
+
+import java.io.FileFilter;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.ToString;
 import lombok.experimental.Accessors;
+import lombok.experimental.FieldDefaults;
 
 /**
  * <p>
@@ -16,13 +18,12 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author yza
- * @since 2019-10-14
+ * @since 2019-10-17
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("t_product")
-@ToString
 public class Product implements Serializable {
 
     private static final long serialVersionUID=1L;
@@ -55,8 +56,7 @@ public class Product implements Serializable {
     /**
      * 商品类型ID
      */
-    @TableField("product_Type")
-    private Long productType;
+    private Long productTypeId;
 
     /**
      * 上架时间
@@ -127,6 +127,19 @@ public class Product implements Serializable {
 
     @TableField("badCommentCount")
     private Integer badCommentCount;
+
+    @TableField("skuProperties")
+    private String skuProperties;
+
+    @TableField(exist = false)
+    private ProductExt ext;
+
+    @TableField(exist = false)
+    private Brand brand;
+
+    @TableField(exist = false)
+    private ProductType productType;
+    private String medias;
 
 
 }
