@@ -1,6 +1,7 @@
 package cn.itsource.anju.service;
 
 import cn.itsource.anju.domain.ProductType;
+import cn.itsource.anju.vo.ProductTypeCrumbVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
@@ -21,4 +22,6 @@ public interface IProductTypeService extends IService<ProductType> {
     List<ProductType> loadTypeTree();
 
    public void genHomePage();
+
+    List<ProductTypeCrumbVo> loadTypeCrumb(Long productTypeId);
 }

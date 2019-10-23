@@ -1,6 +1,9 @@
 package cn.itsource.anju.client;
 
+
 import cn.itsource.anju.domain.ProductDoc;
+import cn.itsource.anju.domain.ProductParam;
+import cn.itsource.anju.util.PageList;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,4 +26,12 @@ public interface ProductESClient {
      */
     @PostMapping("/es/deleteBath")
     void deleteBatch(@RequestBody List<Long> ids);
+
+    /**
+     * es的搜索
+     * @param param
+     * @return
+     */
+    @PostMapping("/es/products")
+    public PageList<ProductDoc> search(@RequestBody ProductParam param);
 }

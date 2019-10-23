@@ -1,5 +1,6 @@
 package cn.itsource.anju.controller;
 
+import cn.itsource.anju.domain.ProductParam;
 import cn.itsource.anju.domain.Specification;
 import cn.itsource.anju.service.IProductService;
 import cn.itsource.anju.domain.Product;
@@ -185,4 +186,14 @@ public class ProductController {
             return AjaxResult.me().setSuccess(false).setMessage("下架失败!"+e.getMessage());
         }
     }
+    /**
+     * 在线商城搜索商品
+     * @param param
+     * @return
+     */
+    @PostMapping("/queryOnSale")
+    public PageList<Product> queryOnSale(@RequestBody ProductParam param){
+        return productService.queryOnSale(param);
+    }
+
 }

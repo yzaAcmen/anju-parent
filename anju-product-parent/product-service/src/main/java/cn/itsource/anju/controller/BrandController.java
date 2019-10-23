@@ -7,6 +7,7 @@ import cn.itsource.anju.service.IBrandService;
 import cn.itsource.anju.util.AjaxResult;
 import cn.itsource.anju.util.PageList;
 import cn.itsource.anju.util.StrUtils;
+import cn.itsource.anju.vo.BrandVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -99,8 +100,18 @@ public class BrandController {
     */
     @RequestMapping(value = "/json",method = RequestMethod.POST)
     public PageList<Brand> json(@RequestBody BrandQuery query)
+
     {
         return brandService.queryPage(query);
+    }
+    /**
+     * 根据类型编号查询品牌信息
+     * @param productTypeId
+     * @return
+     */
+    @GetMapping("/getByProductTypeId")
+    public BrandVo getByProductTypeId(@RequestParam("productTypeId")Long productTypeId){
+        return brandService.getByProductTypeId(productTypeId);
     }
 
 

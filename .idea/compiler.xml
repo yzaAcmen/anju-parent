@@ -9,14 +9,14 @@
         <module name="plat-interface" />
         <module name="basic-genertor" />
         <module name="product-service" />
-        <module name="anju-zuul" />
         <module name="plat-service" />
         <module name="common-interface" />
-        <module name="common-service" />
-        <module name="product-interface" />
-        <module name="anju-eureka" />
-        <module name="basic-util" />
         <module name="anju-config-server" />
+        <module name="anju-eureka" />
+        <module name="anju-zuul" />
+        <module name="product-interface" />
+        <module name="basic-util" />
+        <module name="common-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

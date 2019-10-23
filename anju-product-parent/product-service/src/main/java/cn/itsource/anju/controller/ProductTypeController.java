@@ -6,6 +6,7 @@ import cn.itsource.anju.query.ProductTypeQuery;
 import cn.itsource.anju.service.IProductTypeService;
 import cn.itsource.anju.util.AjaxResult;
 import cn.itsource.anju.util.PageList;
+import cn.itsource.anju.vo.ProductTypeCrumbVo;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -109,5 +110,14 @@ public class ProductTypeController {
             e.printStackTrace();
             return AjaxResult.me().setSuccess(false).setMessage("失败!"+e.getMessage());
         }
+    }
+    /**
+     * 加载类型面包屑
+     * @param productTypeId
+     * @return
+     */
+    @GetMapping("/crumb")
+    public List<ProductTypeCrumbVo> loadTypeCrumb(@RequestParam("productTypeId") Long productTypeId){
+        return productTypeService.loadTypeCrumb(productTypeId);
     }
 }

@@ -5,27 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4d64ef-9ebb-4334-a43f-ace45e3385b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/client/ProductESClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/domain/ProductDoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/controller/ProductESController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/repository/ProductDocRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/test/java/cn/itsource/anju/es/ESTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/vo/SkusVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/domain/ProductParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/vo/BrandVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/vo/ProductTypeCrumbVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-common-parent/common-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/CommonApplicaiton.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/CommonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/client/RedisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/client/RedisClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/client/impl/RedisClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/client/impl/RedisClientImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Specification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/client/ProductESClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/client/ProductESClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/controller/ProductESController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/controller/ProductESController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductTypeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SkuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SpecificationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SpecificationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IBrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/BrandServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-zuul/src/main/java/cn/itsource/anju/config/GlobalCorsConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -120,11 +119,11 @@
       <recent name="cn.itsource.anju.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-common-parent\common-service\src\main\java\cn\itsource\anju\controller" />
+      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-common-parent\common-interface\src\main\java\cn\itsource\anju\domain" />
+      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-product-parent\product-interface\src\main\java\cn\itsource\anju\vo" />
       <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-common-parent\common-service\src\main\java\cn\itsource\anju\util" />
       <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-product-parent\product-service\src\main\java\cn\itsource\anju\controller" />
-      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-product-parent\product-service\src\main\resources" />
-      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-product-parent\product-service\src\test\java" />
-      <recent name="D:\SoftwareInstallation\Java\anju-parent\anju-basic\basic-util\src\main\java\cn\itsource\anju" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommonApplicaiton">
+  <component name="RunManager" selected="Spring Boot.ProductApplicaiton">
     <configuration name="ESTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-service" />
       <extension name="coverage">
@@ -262,7 +261,17 @@
       <serviceView>
         <option name="contentProportion" value="0.24219345" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e10e9ac6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e10e9ac6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a84b71eb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -306,6 +315,7 @@
       <workItem from="1571628742339" duration="64000" />
       <workItem from="1571644279985" duration="11646000" />
       <workItem from="1571819645551" duration="1803000" />
+      <workItem from="1571833856966" duration="7091000" />
     </task>
     <task id="LOCAL-00001" summary="核心配置文件提交">
       <created>1570700461812</created>

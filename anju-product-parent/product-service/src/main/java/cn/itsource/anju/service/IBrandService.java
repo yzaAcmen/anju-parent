@@ -1,8 +1,10 @@
 package cn.itsource.anju.service;
 
+
 import cn.itsource.anju.domain.Brand;
 import cn.itsource.anju.query.BrandQuery;
 import cn.itsource.anju.util.PageList;
+import cn.itsource.anju.vo.BrandVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -21,4 +23,5 @@ public interface IBrandService extends IService<Brand> {
      * @return
      */
     PageList<Brand> queryPage(BrandQuery query);
+   BrandVo getByProductTypeId(Long productTypeId);
 }

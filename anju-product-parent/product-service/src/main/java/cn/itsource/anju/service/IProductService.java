@@ -1,6 +1,7 @@
 package cn.itsource.anju.service;
 
 import cn.itsource.anju.domain.Product;
+import cn.itsource.anju.domain.ProductParam;
 import cn.itsource.anju.domain.Specification;
 import cn.itsource.anju.query.ProductQuery;
 import cn.itsource.anju.util.PageList;
@@ -37,4 +38,6 @@ public interface IProductService extends IService<Product> {
     void offSale(List<Long> idList);
 
     void onSale(List<Long> idList);
+
+    PageList<Product> queryOnSale(ProductParam param);
 }
