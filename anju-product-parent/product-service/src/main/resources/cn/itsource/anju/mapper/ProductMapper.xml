@@ -37,6 +37,33 @@
             <result column="brandname" property="name"/>
         </association>
     </resultMap>
+    <update id="updateViewProperties">
+  update t_product
+        set viewProperties = #{viewProperties}
+        where id = #{productId}
+    </update>
+
+    <update id="updateSkuProperties">
+         update t_product
+        set skuProperties = #{skuProperties}
+        where id = #{productId}
+    </update>
+    <update id="onSale">
+        update t_product
+        set onSaleTime = #{currentTimeMillis},state=1
+        where id in
+        <foreach collection="idList" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </update>
+    <update id="offSale">
+           update t_product
+        set offSaleTime = #{currentTimeMillis},state=0
+        where id in
+        <foreach collection="idList" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </update>
 
     <select id="queryPage" resultMap="BaseResultMap" >
     select p.*,pt.name typename,b.name brandname

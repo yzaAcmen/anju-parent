@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2019/10/12 9:44
  */
 @SpringBootApplication
-public class CommonApplicaiton {
+public class CommonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CommonApplicaiton.class,args);
+        SpringApplication.run(CommonApplication.class,args);
     }
 
 }

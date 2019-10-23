@@ -1,46 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4d64ef-9ebb-4334-a43f-ace45e3385b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/ProductComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/ProductExt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Sku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Specification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/ProductCommentQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/ProductExtQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/SkuQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/SpecificationQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductCommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductExtController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/SkuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/SpecificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductExtMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SpecificationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductCommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductExtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/ISkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/ISpecificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductCommentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductExtServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/SkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/SpecificationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductExtMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/SkuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/SpecificationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/client/ProductESClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/domain/ProductDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/controller/ProductESController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/repository/ProductDocRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/test/java/cn/itsource/anju/es/ESTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/vo/SkusVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/ProductQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/query/ProductQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/CommonApplicaiton.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/CommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/client/RedisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/client/RedisClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-common-parent/common-service/src/main/java/cn/itsource/anju/client/impl/RedisClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-common-parent/common-interface/src/main/java/cn/itsource/anju/client/impl/RedisClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-interface/src/main/java/cn/itsource/anju/domain/Specification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/ProductTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SkuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SpecificationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/mapper/SpecificationMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/IProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/java/cn/itsource/anju/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anju-product-parent/product-service/src/main/resources/cn/itsource/anju/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-genertor/src/main/java/cn/itsource/utils/GenerateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-genertor/src/main/java/cn/itsource/utils/GenerateTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +112,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2211838" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.itsource.anju" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.itsource.anju" />
       <recent name="cn.itsource.anju.config" />
@@ -156,7 +144,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FastDfsTest.testDelete">
+  <component name="RunManager" selected="Spring Boot.CommonApplicaiton">
+    <configuration name="ESTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itsource.anju.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itsource.es" />
+      <option name="MAIN_CLASS_NAME" value="cn.itsource.anju.es.ESTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itsource.anju.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itsource.es" />
+      <option name="MAIN_CLASS_NAME" value="cn.itsource.es.EsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FastDfsTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-service" />
       <extension name="coverage">
@@ -173,25 +193,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastDfsTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itsource.fdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itsource.fdfs" />
-      <option name="MAIN_CLASS_NAME" value="cn.itsource.fdfs.FastDfsTest" />
-      <option name="METHOD_NAME" value="testUpload" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CommonApplicaiton" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="common-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.anju.CommonApplicaiton" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.anju.CommonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,14 +214,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PlatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="plat-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itsource.anju.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.anju.PlatApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FastDfsTest.testDelete" />
-        <item itemvalue="JUnit.FastDfsTest.testUpload" />
-        <item itemvalue="Spring Boot.PlatApplication" />
-        <item itemvalue="Spring Boot.ProductApplicaiton" />
         <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.ProductApplicaiton" />
+        <item itemvalue="JUnit.ESTest.test" />
+        <item itemvalue="JUnit.EsTest.test" />
+        <item itemvalue="JUnit.FastDfsTest.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -264,17 +262,7 @@
       <serviceView>
         <option name="contentProportion" value="0.24219345" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e3a4de2d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e3a4de2d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@dfeb77a0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -309,7 +297,15 @@
       <workItem from="1571046744986" duration="11012000" />
       <workItem from="1571136341886" duration="4079000" />
       <workItem from="1571188751320" duration="13014000" />
-      <workItem from="1571305918531" duration="11593000" />
+      <workItem from="1571305918531" duration="11743000" />
+      <workItem from="1571323044012" duration="25000" />
+      <workItem from="1571392469853" duration="3506000" />
+      <workItem from="1571463232867" duration="5985000" />
+      <workItem from="1571559040070" duration="7891000" />
+      <workItem from="1571626671429" duration="1391000" />
+      <workItem from="1571628742339" duration="64000" />
+      <workItem from="1571644279985" duration="11646000" />
+      <workItem from="1571819645551" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="核心配置文件提交">
       <created>1570700461812</created>
@@ -346,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571217788951</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="文件上传管理增删改logo代码提交">
+      <created>1571322818764</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571322818764</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,5 +376,19 @@
     <MESSAGE value="文件上传管理代码提交" />
     <MESSAGE value="文件上传管理增删改logo代码提交" />
     <option name="LAST_COMMIT_MESSAGE" value="文件上传管理增删改logo代码提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/anju-common-parent/common-service/src/test/java/cn/itsource/fdfs/FastDfsTest.java</url>
+          <line>57</line>
+          <properties class="cn.itsource.fdfs.FastDfsTest" method="testDelete">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

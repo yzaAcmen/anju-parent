@@ -5,9 +5,13 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+import sun.rmi.runtime.Log;
 
 /**
  * <p>
@@ -37,5 +41,12 @@ public class Specification implements Serializable {
     @TableField("isSku")
     private Integer isSku;
 
+    @TableField("product_type_id")
+    private Long productTypeId;
 
+    @TableField(exist = false)
+    private String value;
+
+    @TableField(exist = false)
+    private List<String> options = new ArrayList<>();
 }
