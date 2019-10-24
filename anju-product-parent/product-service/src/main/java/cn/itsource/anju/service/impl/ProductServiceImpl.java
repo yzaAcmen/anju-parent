@@ -1,11 +1,14 @@
 package cn.itsource.anju.service.impl;
 
 import cn.itsource.anju.client.ProductESClient;
+import cn.itsource.anju.client.StaticPageClient;
 import cn.itsource.anju.domain.*;
 import cn.itsource.anju.mapper.*;
 import cn.itsource.anju.query.ProductQuery;
 import cn.itsource.anju.service.IProductService;
+import cn.itsource.anju.service.IProductTypeService;
 import cn.itsource.anju.util.PageList;
+import cn.itsource.anju.vo.ProductTypeCrumbVo;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -18,6 +21,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -50,6 +54,11 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product> impl
     @Autowired
     ProductESClient client;
 
+    @Autowired
+    private IProductTypeService typeService;
+
+    @Autowired
+    private StaticPageClient pageClient;
 
     /**
      * 在线商城搜索商品
@@ -103,7 +112,57 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product> impl
         List<Product> products = baseMapper.selectBatchIds(idList);
         //保存到es中
         List<ProductDoc> productDocList = products2Docs(products);
+        //页面静态化商品详情页
+        staticDetailPage(products);
         client.saveBatch(productDocList);
+    }
+    /**
+     * 批量商品详情页静态化
+     * @param products
+     */
+    private void staticDetailPage(List<Product> products) {
+        for (Product product : products) {
+            String templatePath = "D:\\SoftwareInstallation\\Java\\anju-parent\\anju-product-parent\\product-service\\src\\main\\resources\\template\\product.detail.vm";
+            String targetPath = "D:\\SoftwareInstallation\\Java\\auju-web-parent\\common-service\\detail\\"+product.getId()+".html";
+            //数据
+            Map<String,Object> model = new HashMap<>();
+            //面包屑数据
+            List<ProductTypeCrumbVo> crumbs = typeService.loadTypeCrumb(product.getProductTypeId());
+            model.put("crumbs",crumbs);
+            model.put("product",product);
+            //sku
+            String skuProperties = product.getSkuProperties();
+            List<Specification> skus = JSONArray.parseArray(skuProperties,Specification.class);
+            model.put("skus",skus);
+            //viewProperties
+            String viewProperties = product.getViewProperties();
+            List<Specification> views = JSONArray.parseArray(viewProperties, Specification.class);
+            model.put("views",views);
+            //商品详情
+            ProductExt productExt = productExtMapper.selectOne(new QueryWrapper<ProductExt>().eq("productId", product.getId()));
+            String richContent = productExt.getRichContent();
+            model.put("richContent",richContent);
+            //商品的媒体属性
+            String mediasStr = product.getMedias();//aaa,bbb,ccc
+            //[[aaa,aaa,aaa],[bbb,bbb,bbb],[ccc,ccc,ccc]]
+            String[] mediasArr = mediasStr.split(",");//[aaa,bbb,ccc]
+            List<List<String>> medias = new ArrayList<>();
+            for (String media : mediasArr) {
+                List<String> oneMedia = new ArrayList<>();
+                oneMedia.add("http://172.16.4.46"+media);
+                oneMedia.add("http://172.16.4.46"+media);
+                oneMedia.add("http://172.16.4.46"+media);
+                medias.add(oneMedia);
+            }
+            String images = JSON.toJSONString(medias);
+            model.put("medias",images);
+
+            //skuJSONStr
+            model.put("skuJSON",product.getSkuProperties());
+
+            pageClient.generateStaticPage(templatePath,targetPath,model);
+
+        }
     }
     /**
      * 集合的转换
